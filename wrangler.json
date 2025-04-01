@@ -1,0 +1,30 @@
+{
+  "name": "frosty-hat-36e1",
+  "main": "./dist/index.js",
+  "assets": {
+    "directory": "./dist"
+  },
+  "compatibility_date": "2024-11-01",
+  "compatibility_flags": ["nodejs_compat"],
+  "observability": {
+    "enabled": true
+  },
+  "upload_source_maps": true,
+  "vars": {
+    "EXAMPLE_VALUE": "example_value"
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "winter-dawn-3a3c-d1",
+      "database_id": "51b9b32b-9153-4c46-b51d-643a3c6c2811"
+    }
+  ],
+  "workflows": [
+    {
+      "name": "frosty-hat-36e1-customer-workflow",
+      "binding": "CUSTOMER_WORKFLOW",
+      "class_name": "CustomerWorkflow"
+    }
+  ]
+}
